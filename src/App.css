@@ -656,3 +656,33 @@ height: 300px;
 padding: 20px;
 }
 }
+
+
+/* Styling navigasi React Router */
+.navbar-menu a {
+  display: inline-block;
+  color: #344054;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.navbar-menu a:hover {
+  color: #245ce5;
+  background-color: #f0f4ff;
+}
+
+.navbar-menu a.menu-current {
+  color: #245ce5;
+  background-color: #eaf0ff;
+  font-weight: 700;
+}
+
+.brand-logo {
+  text-decoration: none;
+  color: inherit;
+}
+
